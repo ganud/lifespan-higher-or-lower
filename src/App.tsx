@@ -1,9 +1,10 @@
 import "./App.css";
-import animals from "../animals.json";
+import animals from "../animalstest.json";
 import { useEffect, useState } from "react";
 import { sample } from "lodash-es";
 function App() {
   const [score, setScore] = useState(0);
+  const [loserScore, setLoserScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
   const [resetCount, setResetCount] = useState(0); // Updates dependency useEffect
   const [defenderAnimal, setDefenderAnimal] = useState<Animal | null>(null);
@@ -36,6 +37,7 @@ function App() {
     if (checkWin(playedHigh) == false) {
       // On lose, reset game and show summary
       setLoserAnimal(challengerAnimal);
+      setLoserScore(score);
       document.getElementById("game_summary").showModal();
       setScore(0);
       setResetCount(resetCount + 1);
@@ -148,11 +150,10 @@ function App() {
             </div>
           </div>
         </div>
-        {/* Footer */}
-        <div className="flex p-4 text-4xl shadow-[inset_0_0_0_1000px_rgba(0,0,0,0.7)]">
-          Score: {score}
-        </div>
       </div>
+      <footer className="absolute bottom-0 left-0 w-full p-4 text-4xl">
+        Score: {score}
+      </footer>
       {/* Modal that pops up on game end */}
       <dialog id="game_summary" className="modal">
         <div className="modal-box">
@@ -161,11 +162,11 @@ function App() {
             You lost on {loserAnimal!.name}, which has a lifespan of{" "}
             {loserAnimal!.lifespan} years.
           </p>
-          <p className="text-2xl text-center">Your score: {score}</p>
+          <p className="text-2xl text-center">Your score: {loserScore}</p>
           <p className="text-2xl text-center">
             Your highest score: {highScore}
           </p>
-          <form method="dialog">
+          <form method="dialog" className="flex justify-center">
             {/* if there is a button in form, it will close the modal */}
             <button className="btn">Play Again</button>
           </form>
