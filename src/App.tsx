@@ -76,7 +76,7 @@ function App() {
             <div className="flex flex-col items-center gap-1">
               <h1 className="text-2xl font-extrabold">{defenderAnimal.name}</h1>
               <p>has a lifespan of</p>
-              <h1 className="text-4xl font-extrabold">
+              <h1 className="text-4xl font-extrabold text-amber-200">
                 {defenderAnimal.lifespan}
               </h1>
               <p>years</p>
@@ -97,7 +97,7 @@ function App() {
               </h1>
               <p>has</p>
               <button
-                className="btn btn-xl"
+                className="btn btn-xl hover:btn-primary  text-amber-200"
                 onClick={() => {
                   playTurn(true);
                 }}
@@ -122,7 +122,7 @@ function App() {
                 </svg>
               </button>
               <button
-                className="btn btn-xl"
+                className="btn btn-xl hover:btn-primary text-amber-200"
                 onClick={() => {
                   playTurn(false);
                 }}

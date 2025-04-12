@@ -303,10 +303,5 @@
     "name": "Human",
     "lifespan": 79,
     "image": "https://blclifton.com/wp-content/uploads/2017/07/Walter-White-1.jpg"
-  },
-  {
-    "name": "A fucking Dragon",
-    "lifespan": 5000,
-    "image": "https://darksouls3.wdfiles.com/local--files/boss-image:midir1/Midir1.jpg"
   }
 ]
