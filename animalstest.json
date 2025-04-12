@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Mayfly (adult)",
+    "lifespan": 0.0027,
+    "image": "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Invertebrates/invertebrate_mayflies_600x300.jpg"
+  },
+  {
+    "name": "Gastrotrich",
+    "lifespan": 0.04,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Lepidodermella_squamatum.jpg/330px-Lepidodermella_squamatum.jpg"
+  },
+  {
+    "name": "Housefly",
+    "lifespan": 0.16,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2K_jTZyqyLHnBXK52-oSHGuWAnfLGGke9Q&s"
+  },
+  {
+    "name": "Dragonfly",
+    "lifespan": 0.25,
+    "image": "https://images.squarespace-cdn.com/content/v1/61c4da8eb1b30a201b9669f2/1717428004979-5XKMUIC8XWVHA1B1J4V8/Dragonfly2.jpg"
+  },
+  {
+    "name": "Mosquito",
+    "lifespan": 0.16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/1200px-Aedes_aegypti.jpg"
+  },
+  {
+    "name": "Worker Bee",
+    "lifespan": 0.25,
+    "image": "https://static.wikia.nocookie.net/beemovie/images/1/11/Barry-B-Benson.png/revision/latest/scale-to-width-down/340?cb=20190513100654"
+  },
+  {
+    "name": "Ant (worker)",
+    "lifespan": 0.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/1200px-Red_Ant_-_March_2025.jpg"
+  },
+  { "name": "Hamster", "lifespan": 2 },
+  { "name": "Mole", "lifespan": 3 },
+  { "name": "Shrew", "lifespan": 2 },
+  { "name": "Mouse", "lifespan": 2 },
+  { "name": "Rat", "lifespan": 3 },
+  { "name": "Chameleon", "lifespan": 5 },
+  { "name": "Opossum", "lifespan": 4 },
+  { "name": "Rabbit", "lifespan": 8 },
+  { "name": "Squirrel", "lifespan": 10 },
+  { "name": "Pig", "lifespan": 15 },
+  { "name": "Dog (Chihuahua)", "lifespan": 17 },
+  { "name": "Dog (Labrador)", "lifespan": 12 },
+  { "name": "Cat", "lifespan": 15 },
+  { "name": "Red Fox", "lifespan": 14 },
+  { "name": "Cow", "lifespan": 20 },
+  { "name": "Horse", "lifespan": 25 },
+  { "name": "Lion", "lifespan": 15 },
+  { "name": "Tiger", "lifespan": 20 },
+  { "name": "Brown Bear", "lifespan": 30 },
+  { "name": "Polar Bear", "lifespan": 25 },
+  { "name": "Gorilla", "lifespan": 40 },
+  { "name": "Chimpanzee", "lifespan": 50 },
+  { "name": "Elephant (African)", "lifespan": 70 },
+  { "name": "Elephant (Asian)", "lifespan": 60 },
+  { "name": "Blue Whale", "lifespan": 90 },
+  { "name": "Bowhead Whale", "lifespan": 200 },
+  { "name": "Greenland Shark", "lifespan": 400 },
+  { "name": "Galápagos Tortoise", "lifespan": 150 },
+  { "name": "Koi Fish", "lifespan": 40 },
+  { "name": "Goldfish", "lifespan": 25 },
+  { "name": "Clownfish", "lifespan": 10 },
+  { "name": "Lobster", "lifespan": 50 },
+  { "name": "Ocean Quahog Clam", "lifespan": 500 },
+  { "name": "Immortal Jellyfish", "lifespan": 9999999999999999 },
+  { "name": "Tuatara", "lifespan": 100 },
+  { "name": "Macaw", "lifespan": 60 },
+  { "name": "Cockatoo", "lifespan": 70 },
+  { "name": "Eagle", "lifespan": 30 },
+  { "name": "Albatross", "lifespan": 50 },
+  { "name": "Ostrich", "lifespan": 45 },
+  { "name": "Flamingo", "lifespan": 40 },
+  { "name": "Python", "lifespan": 35 },
+  { "name": "Rattlesnake", "lifespan": 25 },
+  { "name": "Sea Turtle", "lifespan": 80 },
+  { "name": "Salamander", "lifespan": 20 },
+  { "name": "Axolotl", "lifespan": 15 },
+  { "name": "Tarantula", "lifespan": 20 },
+  { "name": "Scorpion", "lifespan": 8 },
+  { "name": "Giant Squid", "lifespan": 5 },
+  { "name": "Octopus", "lifespan": 3 },
+  { "name": "Starfish", "lifespan": 35 },
+  { "name": "Earthworm", "lifespan": 6 },
+  { "name": "Cicada", "lifespan": 17 },
+  { "name": "Human", "lifespan": 79 },
+  { "name": "Cthulhu", "lifespan": 1000 },
+  { "name": "A fucking Dragon", "lifespan": 5000 }
+]
