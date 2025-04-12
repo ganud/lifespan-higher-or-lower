@@ -1,5 +1,5 @@
 import "./App.css";
-import animals from "../animalstest.json";
+import animals from "../animals.json";
 import { useEffect, useState } from "react";
 import { sample } from "lodash-es";
 function App() {
